@@ -5,7 +5,7 @@ import java.net.URL;
 
 /**
  * Created by jordi on 23/02/17.
- * Genera un fitxer blog.xml amb els títols del blod del puig
+ * Genera un fitxer blog.xml amb els títols del blog del puig
  * I mostra dades de la URL
  */
 
@@ -19,21 +19,21 @@ public class ExampleURL {
         System.out.println("Camí:\t"+web.getPath());
         System.out.println("Protocol:\t"+web.getProtocol());
 
-        web.openConnection();
+        //web.openConnection();
 
         BufferedReader in = new BufferedReader( new InputStreamReader(web.openStream()));
 
-        File f = new File("blog.xml");
-        BufferedWriter bw;
-        bw = new BufferedWriter(new FileWriter(f));
+        //File f = new File("blog.xml");
+        //BufferedWriter bw;
+        //bw = new BufferedWriter(new FileWriter(f));
         String inputLine;
         while ((inputLine = in.readLine()) != null) {
             if(inputLine.contains("<title>")) {
-                System.out.println(inputLine);
-                bw.write(inputLine + "\n");
+                System.out.println(inputLine.replaceAll("<\\/?title>","").trim());
+                //bw.write(inputLine + "\n");
             }
         }
-        bw.close();
+        //bw.close();
         in.close();
 
     }
