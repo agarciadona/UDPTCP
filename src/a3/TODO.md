@@ -8,7 +8,7 @@
 > - Si el client li envia un "adeu" al servidor, el client es desconnecta, però no pas el servidor
 > 
 
-**Per tal de discrimar el bytes restants del packet i poder obtenir el missatge correcte, feu servir el següent**
+*Per tal de discrimar el bytes restants del packet i poder obtenir el missatge correcte, feu servir el següent*
 ```java
     String msg = new String(data,0,lenght);
     //data és l'array de bytes rebuts
