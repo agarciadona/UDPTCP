@@ -13,6 +13,8 @@
     String msg = new String(data,0,lenght);
     //data és l'array de bytes rebuts
 ```
+<hr>
+
 >**Tasca 2**  
 > Seguint l'esquema après a la tasca 1, crea un servidor que generi un número aleatori('NombreSecret.java') i atengui
 > a les peticions dels clients que intenten encertar aquest número.
@@ -22,3 +24,9 @@
 > del que li ha enviat, o si ha encertat.
 > 
 > Feu servir la classe 'NombreSecret.java' per fer la gestió del número secret.
+
+Per transformar in 'int' en un 'byte[]' apliqueu el següent:
+```java
+int nombre = ByteBuffer.wrap(data).getInt(); //data és l'array de bytes
+byte[] resposta = ByteBuffer.allocate(4).putInt(num).array(); //num és un int
+```
