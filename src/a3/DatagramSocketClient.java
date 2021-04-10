@@ -71,7 +71,7 @@ public class DatagramSocketClient {
     public static void main(String[] args) {
         DatagramSocketClient client = new DatagramSocketClient();
         try {
-            client.init("192.168.247.55",5555);
+            client.init("localhost",5555);
             client.runClient();
         } catch (IOException e) {
             e.getStackTrace();
