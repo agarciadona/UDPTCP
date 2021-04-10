@@ -13,3 +13,12 @@
     String msg = new String(data,0,lenght);
     //data és l'array de bytes rebuts
 ```
+>**Tasca 2**  
+> Seguint l'esquema après a la tasca 1, crea un servidor que generi un número aleatori('NombreSecret.java') i atengui
+> a les peticions dels clients que intenten encertar aquest número.
+> Ves contabilitzant els intents que cada client fà.
+> 
+> El servidor un cop rebut el numero proposat per el client li ha de respondre si el número que té és més gran, més petit
+> del que li ha enviat, o si ha encertat.
+> 
+> Feu servir la classe 'NombreSecret.java' per fer la gestió del número secret.
