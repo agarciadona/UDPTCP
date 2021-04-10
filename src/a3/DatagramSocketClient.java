@@ -64,8 +64,7 @@ public class DatagramSocketClient {
     //Si se li diu adeu al server el client es desconnecta
     private boolean mustContinue(byte [] data) {
         String msg = new String(data).toLowerCase();
-        if(!msg.equals("adeu")) return true;
-        else return false;
+        return !msg.equals("adeu");
     }
 
     public static void main(String[] args) {
