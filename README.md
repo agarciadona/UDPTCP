@@ -6,5 +6,5 @@
   - [Tasques](src/a3/TODO.md)  
   
 - a4: UDP amb Objectes
-  - [Tasqwues](src/a4/TODO.md)  
+  - [Tasques](src/a4/TODO.md)  
   
