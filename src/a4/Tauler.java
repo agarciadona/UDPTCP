@@ -8,6 +8,7 @@ import java.util.Map;
  * Created by jordi on 05/03/17.
  */
 public class Tauler implements Serializable {
+    public static final long serialVersionUID = 1L;
     public Map<String,Integer> map_jugadors;
     public int resultat = 3, acabats;
 
@@ -29,6 +30,7 @@ public class Tauler implements Serializable {
 }
 
 class Jugada implements Serializable {
+    public static final long serialVersionUID = 1L;
     String Nom;
     int num;
 }
