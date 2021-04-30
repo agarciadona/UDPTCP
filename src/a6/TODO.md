@@ -65,3 +65,7 @@ while(true) {           //espera connexió del client i llançar thread
 >i les vegades que es vulgui el client:  
 >**`ClientTcpAdivina.java`**  
 
+## Exercici
+Escriu un Servidor i un Client que es comuniquin amb TCP amb kes següents funcions:
+1. El client li envia un objecte [`Llista.java`](Llista.java) al servidor amb un nom i una llista de números desordenats  
+2. El Servidor li retorna la llista amb els números ordenats i sense repetits.
