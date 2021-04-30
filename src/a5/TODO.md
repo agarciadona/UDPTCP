@@ -22,7 +22,7 @@ socket.leaveGroup();
 El servidor per la seva banda té un bucle molt senzill on només cal preparar
 les dades que vol enviar i enviar.  
 
-Classes involucrades en aquest exemple:  
+Classes involucrades en aquest exercici:  
 [`SrvVelocitats.java`](SrvVelocitats.java) Servidor  
 [`ClientVelocimetre.java`](ClientVelocimetre.java) Un client que fa una tasca  
 [`Velocitat.java`](Velocitat.java) Classe per alliberar de feina i no barrejar reponsabililtats en la tasca de comunicació  
