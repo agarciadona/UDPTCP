@@ -24,8 +24,7 @@ les dades que vol enviar i enviar.
 
 Classes involucrades en aquest exemple:  
 [`SrvVelocitats.java`](SrvVelocitats.java) Servidor  
-[`ClientVelocimetre.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/ClientVelocimetre.java) Un client que fa una tasca  
-[`ClientVelocimetre2.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/ClientVelocimetre2.java) Un client que fa una altra tasca  
+[`ClientVelocimetre.java`](ClientVelocimetre.java) Un client que fa una tasca  
 [`Velocitat.java`](Velocitat.java) Classe per alliberar de feina i no barrejar reponsabililtats en la tasca de comunicació  
 
 ### Exercici:
