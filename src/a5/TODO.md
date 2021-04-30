@@ -23,10 +23,10 @@ El servidor per la seva banda té un bucle molt senzill on només cal preparar
 les dades que vol enviar i enviar.  
 
 Classes involucrades en aquest exemple:  
-[`SrvVelocitats.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/SrvVelocitats.java) Servidor  
+[`SrvVelocitats.java`](https://github.com/elpuig-dam/mp9-uf3-2021/blob/master/a5/SrvVelocitats.java) Servidor  
 [`ClientVelocimetre.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/ClientVelocimetre.java) Un client que fa una tasca  
 [`ClientVelocimetre2.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/ClientVelocimetre2.java) Un client que fa una altra tasca  
-[`Velocitat.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/Velocitat.java) Classe per alliberar de feina i no barrejar reponsabililtats en la tasca de comunicació  
+[`Velocitat.java`](https://github.com/elpuig-dam/mp9-uf3-2021/blob/master/a5/Velocitat.java) Classe per alliberar de feina i no barrejar reponsabililtats en la tasca de comunicació  
 
 ### Exercici:
 Escriu el codi de `ClientVelocimetre.java` per tal de connectar-se al servidor multicast i que cada 5 dades recollides del servidor
