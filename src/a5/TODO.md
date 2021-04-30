@@ -28,3 +28,6 @@ Classes involucrades en aquest exemple:
 [`ClientVelocimetre2.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/ClientVelocimetre2.java) Un client que fa una altra tasca  
 [`Velocitat.java`](https://github.com/elpuig-dam/mp9-uf3-1920/blob/master/a5/Velocitat.java) Classe per alliberar de feina i no barrejar reponsabililtats en la tasca de comunicació  
 
+### Exercici:
+Escriu el codi de `ClientVelocimetre.java` per tal de connectar-se al servidor multicast i que cada 5 dades recollides del servidor
+el client ens mostri la velocitat mitjana que porta en aquell moment.
