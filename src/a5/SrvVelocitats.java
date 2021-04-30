@@ -43,7 +43,9 @@ public class SrvVelocitats {
 	}
 
 	public static void main(String[] args) throws IOException {
-		SrvVelocitats srvVel = new SrvVelocitats(5557, "224.0.0.5");
+		//Canvieu la X.X per un número per formar un IP.
+		//Que no sigui la mateixa que la d'un altre company
+		SrvVelocitats srvVel = new SrvVelocitats(5557, "224.0.X.X");
 		srvVel.runServer();
 		System.out.println("Parat!");
 
