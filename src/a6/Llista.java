@@ -13,6 +13,14 @@ public class Llista implements Serializable {
         this.numberList = numberList;
     }
 
+    @Override
+    public String toString() {
+        return "Llista{" +
+                "nom='" + nom + '\'' +
+                ", numberList=" + numberList +
+                '}';
+    }
+
     public String getNom() {
         return nom;
     }

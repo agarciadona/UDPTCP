@@ -1,6 +1,7 @@
 package a4;
 
-import a3.NombreSecret;
+
+import a6.NombreSecret;
 
 import java.io.*;
 import java.net.*;

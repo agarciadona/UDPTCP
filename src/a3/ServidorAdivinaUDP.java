@@ -1,5 +1,7 @@
 package a3;
 
+import a6.NombreSecret;
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
